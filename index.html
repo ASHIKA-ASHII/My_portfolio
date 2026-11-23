@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashika R.V | CSE Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Ashika<span>.</span></h2>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hello, I'm <span>Ashika R.V</span></h1>
+            <h2>CSE Student & Aspiring Developer</h2>
+            <p>
+                I am passionate about technology, web development
+                and learning new skills. I enjoy creating simple
+                and useful digital solutions.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn outline">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="profile.jpg.jpeg" alt="Ashika profile photo">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+            I am a third-year Computer Science and Engineering student.
+            I am interested in software development, programming and
+            technology. I am continuously improving my technical
+            knowledge and problem-solving skills.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section light">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">C Programming</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Online Food Ordering System</h3>
+                <p>
+                    A web application designed to make food ordering
+                    simple and convenient for users.
+                </p>
+                <p class="tech">Project Type: Web Application</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    A personal website to showcase my education,
+                    technical skills, projects and achievements.
+                </p>
+                <p class="tech">HTML | CSS | JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section light">
+        <h2 class="section-title">Education</h2>
+
+        <div class="education-card">
+            <h3>B.E Computer Science and Engineering</h3>
+            <p>St. Xavier's Catholic College of Engineering</p>
+            <p>Currently in Third Year</p>
+            <p>CGPA: 7.5</p>
+        </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="certificates" class="section">
+        <h2 class="section-title">Certifications</h2>
+        <div class="education-card">
+            <h3>My Certifications</h3>
+            <p>Add your completed course certificates here.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section light">
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-details">
+            <p>Email: your-email@example.com</p>
+            <p>LinkedIn: Add your LinkedIn profile link</p>
+            <p>GitHub: Add your GitHub profile link</p>
+        </div>
+
+        <a href="mailto:your-email@example.com" class="btn">
+            Send Me an Email
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Ashika R.V. All Rights Reserved.</p>
+        <p>Designed with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
